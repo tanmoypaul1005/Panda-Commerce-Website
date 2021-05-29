@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   <!-- Navbar start -->
+   <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img src="images/logo.png">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#shoes">Shoes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#backpack">Backpack</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#subscribe">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>    
+   </div>
+   <!-- Navbar end -->
+
+
+
+   <!-- Banner Carousel start -->
+   <div class="container" >
+    <div id="carouselExampleControls" class="carousel slide orange-bg " data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+    
+           <div class="row align-items-center">
+               <div class="col-md-7">
+               <h1>Mega LCD TV For Sport</h1>
+               <p>This is the best tv in the world for people who just went to waste time in front in tv</p>
+               <h1 class="price">1200$</h1>
+               <button type="button" class="btn btn-danger">BUY NOW >></button>
+               </div>
+               <div class="col-md-5">
+                <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+               </div>
+           </div> 
+          </div>
+    
+    
+          <div class="carousel-item">
+            <div class="row align-items-center">
+                <div class="col-md-7">
+                  <h1>Ear Bud </h1>
+                  <p>Experience powerful, balanced sound with Solo Pro wireless on-ear headphones featuring Active Noise Cancelling</p>
+                  <h1 class="price">400$</h1>
+                  <button type="button" class="btn btn-danger">BUY NOW</button>
+                </div>
+                <div class="col-md-5">
+                 <img src="images/banner-images/headphone.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div> 
+           </div>
+    
+    
+          <div class="carousel-item">
+            <div class="row align-items-center">
+                  <div class="col-md-7">
+                    <h1>Ear Bud </h1>
+                    <p>Designed for PUBG, it triggers the touch, does not block the screen, does not block the buttons, and is suitable for mobile phones.</p>
+                    <h1 class="price">400$</h1>
+                    <button type="button" class="btn btn-danger">BUY NOW</button>
+                </div>
+                <div class="col-md-5">
+                 <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                </div>
+            </div> 
+           </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div> 
+    
+</div>
+<!-- Banner Carousel end -->
+
+
+
+
+
+<!-- categories start -->
+<div class="container categories">
+<div class="row">
+  <div class="col-md-4">
+  <div class="d-flex justify-content-between align-items-center cat1 ">
+  <h1>Watch</h1>
+  <img src="images/categories/watch.png"> 
+  </div>  
+  </div>
+  
+
+  <div class="col-md-4">
+  <div class="d-flex justify-content-between align-items-center cat2 ">
+  <h1>Beg</h1>  
+  <img src="images/categories/bag.png">
+  </div>
+  </div>  
+
+
+  <div class="col-md-4 ">
+  <div class=" d-flex justify-content-between align-items-center cat3">  
+  <h1>Shoes</h1>  
+  <img src="images/categories/shoes.png">
+  </div>
+</div>
+</div>
+</div>
+<!-- categories end -->
+
+
+
+
+
+
+<!-- Shoes Card start -->
+
+<div class="container " id="shoes">
+ <h3>Shoes</h3> 
+ <div class="card-deck">
+  <div class="card shoes">
+    <img class="card-img-top" src="images/shoes/shoe-1.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Supply 350</h5>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h3>120$</h3>
+      <button type="button" class="btn btn-danger">BUY NOW >></button>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card shoes">
+    <img class="card-img-top" src="images/shoes/shoe-2.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Nike 360</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <h3>320$</h3>
+      <button type="button" class="btn btn-danger">BUY NOW >></button>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card shoes">
+    <img class="card-img-top" src="images/shoes/shoe-3.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Red Airmax</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+      <h3>350$</h3> 
+      <button type="button" class="btn btn-danger">BUY NOW >></button>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Shoes Card  end -->
+
+
+
+<!-- Backpack Card start -->
+
+<div class="container  " id="backpack">
+  <h3>Backpack</h3> 
+  <div class="card-deck">
+   <div class="card backpack">
+     <img class="card-img-top" src="images/bags/bag-1.png" alt="Card image cap">
+     <div class="card-body">
+       <h5 class="card-title">  Rad Backpack</h5>
+       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+       <h3>125$</h3>
+       <button type="button" class="btn btn-danger">BUY NOW >></button>
+       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+     </div>
+   </div>
+   <div class="card backpack ">
+     <img class="card-img-top" src="images/bags/bag-2.png" alt="Card image cap">
+     <div class="card-body">
+       <h5 class="card-title">Blue Backpack</h5>
+       <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+       <h3>320$</h3>
+       <button type="button" class="btn btn-danger">BUY NOW >></button>
+       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+     </div>
+   </div>
+   <div class="card backpack">
+     <img class="card-img-top" src="images/bags/bag-3.png" alt="Card image cap">
+     <div class="card-body">
+       <h5 class="card-title">Black Backpack </h5>
+       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+       <h3>350$</h3> 
+       <button type="button" class="btn btn-danger">BUY NOW >></button>
+       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+     </div>
+   </div>
+ </div>
+ </div>
+ 
+ <!-- Backpack Card  end -->
+
+
+
+ 
+ <!-- contuct start -->
+ <div class="container orange-bg d-flex justify-content-center align-items-center  " id="subscribe">
+   <div>
+<h3>LET'S STAY IN TOUCH</h3>
+<h6>Get updated on seles,specials and more</h6>
+<input type="text">
+<button type="button" class="btn btn-danger">Submit >></button>
+ </div>
+</div>
+<!-- contuct end -->
+
+
+<footer>
+  <div class="container">
+  <p> © Tanmoy 2021,a Prograning Hero initiative</p>
+</footer>
+</div>
+ <!-- Option 2: Separate Popper and Bootstrap JS -->
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

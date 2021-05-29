@@ -1,0 +1,85 @@
+/* Banner start */
+.container{
+    margin-bottom: 100px;
+}
+.orange-bg{
+    background-color:#fceae8;
+    border-radius: 10px;
+    padding: 30px;
+}
+.carousel-item{
+    padding:20px 40px;
+
+  
+}
+.price{
+color:#FF136F;
+}
+/* Banner end */
+
+
+
+
+
+/* categories start */
+.cat1,.cat2,.cat3{
+    padding:10px 30px;
+
+}
+.cat1{
+    background-color: orange;
+    border-radius: 10px;
+  
+}
+.cat2{
+    background-color:orchid;
+
+    border-radius: 10px;
+}
+.cat3{
+    background-color:lightblue;
+
+    border-radius: 10px;
+}
+.categories{
+    color:white;
+}
+.categories img{
+    width: 100px;
+}
+/* categories end  */
+
+
+
+/* Shoes card start */
+.shoes{
+    width: 300px;
+    float: left;
+    margin-right: 72px;
+    height: 470px;
+    box-shadow: 5px 5px 10px;
+    margin-bottom: 100px;
+}
+
+/* Shoes card end */
+
+
+/* backpack card start */
+.backpack{
+    width: 300px;
+    float: left;
+    margin-right: 72px;
+    height: 550px;
+    box-shadow: 5px 5px 10px;
+    margin-bottom: 100px;
+}
+
+/* backpack card end */
+
+
+/* copyright start */
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
+/* copyright end */
